@@ -1,0 +1,580 @@
+header {
+    margin-top: 62px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .logo .logo_img {
+    width: 24px;
+}
+
+nav .nav_right {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    font-family: 'Jost-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+nav .nav_right a {
+    text-decoration: none;
+    color: #333136;
+    transition: 0.3s;
+}
+
+nav .nav_right a:hover {
+    text-decoration: none;
+    color: #333136ae;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_top{
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom:64px ;
+    border-radius: 20px;
+    background: url(images/app-design/desktop/Group5.svg);
+    background-color: #e7826b;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1090px;
+    position: relative;
+    margin-top: 100px;
+}
+.main_top h1{
+    font-family: 'Jost';
+    font-size: 48px;
+    line-height: 48px;
+    color: #ffffff;
+}
+
+.main_top p{
+    font-family: 'Jost-Regular';
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.main_center{   
+margin-top: 160px;
+
+}
+.main_center .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 64px;
+}
+.main_center .top .left{
+    width: 350px;
+}
+.main_center .top .left a{
+    text-decoration: none;
+    color: #5c5c5c;
+}
+.main_center .top .left .left_top img{
+    width: 350px;
+    border-radius:  20px 20px 0px 0px;
+    text-align: end;
+}
+.main_center .top .left .left_bottom{
+text-align: center;
+background-color: #ffad9b26;
+padding-top: 32px;
+margin-top: -4px;
+border-radius: 0px 0px 20px 20px;
+transition: all .5s ease;
+padding-bottom: 32px;
+}
+.main_center .top .left .left_bottom span {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 20px;
+    /* color: #e7826b; */
+    letter-spacing: 5px;
+}
+.main_center .top .left .left_bottom p {
+    font-family: 'Jost-Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+.main_center .top .left .left_bottom:hover{
+    background-color: #ffad9b;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.main_center .top .left{
+    width: 350px;
+}
+.main_center .top .left a{
+    text-decoration: none;
+    color: #5c5c5c;
+}
+.main_center .top .left .left_top img{
+    width: 350px;
+    border-radius:  20px 20px 0px 0px;
+    text-align: end;
+}
+.main_center .top .left .left_bottom{
+text-align: center;
+background-color: #ffad9b26;
+padding-top: 32px;
+margin-top: -4px;
+border-radius: 0px 0px 20px 20px;
+transition: all .5s ease;
+padding-bottom: 32px;
+}
+.main_center .top .left .left_bottom span {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 20px;
+    /* color: #e7826b; */
+    letter-spacing: 5px;
+}
+.main_center .top .left .left_bottom p {
+    font-family: 'Jost-Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+.main_center .top .left .left_bottom:hover{
+    background-color: #ffad9b;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_center .top .center {
+    width: 350px;
+}
+
+.main_center .top .center a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.main_center .top .center .left_top img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: end;
+}
+
+.main_center .top .center .left_bottom {
+    text-align: center;
+    background-color: #ffad9b26;
+    padding-top: 32px;
+    margin-top: -4px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all .5s ease;
+    padding-bottom: 32px;
+}
+
+.main_center .top .center .left_bottom span {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 20px;
+    /* color: #e7826b; */
+    letter-spacing: 5px;
+}
+
+.main_center .top .center .left_bottom p {
+    font-family: 'Jost-Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main_center .top .center .left_bottom:hover {
+    background-color: #ffad9b;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+
+
+.main_center .top .right {
+    width: 350px;
+}
+
+.main_center .top .right a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.main_center .top .right .left_top img {
+    width: 350px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: end;
+}
+
+.main_center .top .right .left_bottom {
+    text-align: center;
+    background-color: #ffad9b26;
+    padding-top: 32px;
+    margin-top: -4px;
+    border-radius: 0px 0px 20px 20px;
+    transition: all .5s ease;
+    padding-bottom: 32px;
+}
+
+.main_center .top .right .left_bottom span {
+    font-family: 'Jost';
+    font-size: 20px;
+    line-height: 20px;
+    /* color: #e7826b; */
+    letter-spacing: 5px;
+}
+
+.main_center .top .right .left_bottom p {
+    font-family: 'Jost-Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main_center .top .right .left_bottom:hover {
+    background-color: #ffad9b;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.right-top:hover .text {
+    opacity: 1;
+    cursor: pointer;
+}
+.right-bottom:hover .text {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+.main_bottom{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.main_bottom img{
+    border-radius: 20px;
+    width: 100%;
+}
+.main_bottom p{
+    z-index: 5;
+}
+.main_bottom_p{
+    position: absolute;
+    top: 70px;
+    font-family: 'Jost';
+    font-size: 40px;
+    line-height: 52px;
+    color: #ffffff;
+    left: 170px;
+}
+.main_bottom_p1 {
+    position: absolute;
+    top: 80px;
+    margin-left: 100px;
+    font-family: 'Jost';
+    font-size: 40px;
+    line-height: 52px;
+    color: #ffffff;
+}
+.main_bottom_p3{
+    position: absolute;
+    top: 170px;
+    right: 170px;
+    font-family: 'Jost';
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+.main_bottom_p2 {
+    position: absolute;
+    top: 170px;
+    left: 190px;
+    font-family: 'Jost';
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+.main_bottom .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    left: 0;
+    right: 0;
+    width: 38.7%;
+    border-radius: 20px;
+    height: 99%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7826bb2;
+}
+
+.main_buttom .right-top:hover .text {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+.main_bottom .text1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+
+    right: 0;
+    width: 38.6%;
+    border-radius: 20px;
+    height: 99%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #e7826bb2;
+}
+
+.main_bottom .right-bottom:hover .text1 {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 80px;
+}
+
+
+
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 72px 95px;
+    z-index: 2;
+    position: absolute;
+    top: 60px;
+    border-radius: 20px;
+    align-items: center;
+    background: url(images/app-design/desktop/bg-pattern-intro-app.svg);
+    background-color: #e7826b;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    position: relative;
+}
+
+.top_footer .left .left_top {
+    margin-bottom: 25px;
+}
+
+.top_footer .left .left_top span {
+    font-family: 'Jost';
+    font-size: 40px;
+    line-height: 40px;
+    color: aliceblue;
+}
+
+.top_footer .left .left_bottom span {
+    font-family: 'Jost';
+    font-size: 16px;
+    line-height: 26px;
+    color: aliceblue;
+
+}
+
+.top_footer .right a button {
+    font-size: 15px;
+    font-family: 'Jost';
+    border: none;
+    padding: 15px 19px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.top_footer .right a button:hover {
+    color: #ffffff;
+    background-color: #FFAD9B;
+
+
+}
+
+.bottom_footer {
+    padding-top: 144px;
+    z-index: 1;
+    background-color: #1D1C1E;
+}
+
+.footer_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_top .logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer_top .logo .logo_img {
+    width: 24px;
+}
+
+.footer_top .nav_right {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.footer_top .nav_right a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+    font-family: 'Jost-Regular';
+}
+
+.footer_top .nav_right a:hover {
+    text-decoration: none;
+    color: #d5d5d5ae;
+}
+
+.border {
+    margin-top: 40px;
+    border-top: 1px solid #ffffff70;
+}
+
+.footer_bottom {
+    padding-top: 31px;
+    padding-bottom: 72px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.footer_bottom .footer_bottom_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer_bottom .footer_bottom_left .left {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer_bottom .footer_bottom_left .left a:nth-child(1) {
+    font-family: 'Jost';
+    font-weight: 700;
+}
+
+.footer_bottom .footer_bottom_left .left a {
+    text-decoration: none;
+
+    color: #ffffffab;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+
+.footer_bottom .footer_bottom_left .left a:hover {
+    color: #ffffff;
+}
+
+.footer_bottom .footer_bottom_left .right {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.footer_bottom .footer_bottom_left .right a {
+    text-decoration: none;
+    color: #ffffffab;
+    font-family: 'Jost';
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+
+.footer_bottom .footer_bottom_left .right a:hover {
+    color: #ffffff;
+}
+
+.footer_bottpm_right {
+    display: flex;
+    gap: 16px;
+}
+
+.footer_bottpm_right a img {
+    fill: #000000;
+}

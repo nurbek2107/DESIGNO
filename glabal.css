@@ -1,0 +1,27 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./static/jost-v15-latin/jost-v15-latin-500.woff2') format('woff2');
+}
+/* jost-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jost-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('static/jost-regular/jost-v15-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
